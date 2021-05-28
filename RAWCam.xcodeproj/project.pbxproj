@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA627452660C216002A26F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA627442660C216002A26F0 /* AppDelegate.swift */; };
+		FAA627472660C216002A26F0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA627462660C216002A26F0 /* SceneDelegate.swift */; };
+		FAA627492660C216002A26F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA627482660C216002A26F0 /* ViewController.swift */; };
+		FAA6274C2660C216002A26F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA6274A2660C216002A26F0 /* Main.storyboard */; };
+		FAA6274F2660C216002A26F0 /* RAWCam.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA6274D2660C216002A26F0 /* RAWCam.xcdatamodeld */; };
+		FAA627512660C217002A26F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA627502660C217002A26F0 /* Assets.xcassets */; };
+		FAA627542660C217002A26F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA627522660C217002A26F0 /* LaunchScreen.storyboard */; };
+		FAA6275F2660C217002A26F0 /* RAWCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA6275E2660C217002A26F0 /* RAWCamTests.swift */; };
+		FAA6276A2660C217002A26F0 /* RAWCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA627692660C217002A26F0 /* RAWCamUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA6275B2660C217002A26F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA627392660C216002A26F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA627402660C216002A26F0;
+			remoteInfo = RAWCam;
+		};
+		FAA627662660C217002A26F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA627392660C216002A26F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA627402660C216002A26F0;
+			remoteInfo = RAWCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA627412660C216002A26F0 /* RAWCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAWCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA627442660C216002A26F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAA627462660C216002A26F0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAA627482660C216002A26F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAA6274B2660C216002A26F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA6274E2660C216002A26F0 /* RAWCam.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RAWCam.xcdatamodel; sourceTree = "<group>"; };
+		FAA627502660C217002A26F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA627532660C217002A26F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAA627552660C217002A26F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA6275A2660C217002A26F0 /* RAWCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAWCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA6275E2660C217002A26F0 /* RAWCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWCamTests.swift; sourceTree = "<group>"; };
+		FAA627602660C217002A26F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA627652660C217002A26F0 /* RAWCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAWCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA627692660C217002A26F0 /* RAWCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWCamUITests.swift; sourceTree = "<group>"; };
+		FAA6276B2660C217002A26F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA6273E2660C216002A26F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA627572660C217002A26F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA627622660C217002A26F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA627382660C216002A26F0 = {
+			isa = PBXGroup;
+			children = (
+				FAA627432660C216002A26F0 /* RAWCam */,
+				FAA6275D2660C217002A26F0 /* RAWCamTests */,
+				FAA627682660C217002A26F0 /* RAWCamUITests */,
+				FAA627422660C216002A26F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA627422660C216002A26F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA627412660C216002A26F0 /* RAWCam.app */,
+				FAA6275A2660C217002A26F0 /* RAWCamTests.xctest */,
+				FAA627652660C217002A26F0 /* RAWCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA627432660C216002A26F0 /* RAWCam */ = {
+			isa = PBXGroup;
+			children = (
+				FAA627442660C216002A26F0 /* AppDelegate.swift */,
+				FAA627462660C216002A26F0 /* SceneDelegate.swift */,
+				FAA627482660C216002A26F0 /* ViewController.swift */,
+				FAA6274A2660C216002A26F0 /* Main.storyboard */,
+				FAA627502660C217002A26F0 /* Assets.xcassets */,
+				FAA627522660C217002A26F0 /* LaunchScreen.storyboard */,
+				FAA627552660C217002A26F0 /* Info.plist */,
+				FAA6274D2660C216002A26F0 /* RAWCam.xcdatamodeld */,
+			);
+			path = RAWCam;
+			sourceTree = "<group>";
+		};
+		FAA6275D2660C217002A26F0 /* RAWCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA6275E2660C217002A26F0 /* RAWCamTests.swift */,
+				FAA627602660C217002A26F0 /* Info.plist */,
+			);
+			path = RAWCamTests;
+			sourceTree = "<group>";
+		};
+		FAA627682660C217002A26F0 /* RAWCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA627692660C217002A26F0 /* RAWCamUITests.swift */,
+				FAA6276B2660C217002A26F0 /* Info.plist */,
+			);
+			path = RAWCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA627402660C216002A26F0 /* RAWCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA6276E2660C217002A26F0 /* Build configuration list for PBXNativeTarget "RAWCam" */;
+			buildPhases = (
+				FAA6273D2660C216002A26F0 /* Sources */,
+				FAA6273E2660C216002A26F0 /* Frameworks */,
+				FAA6273F2660C216002A26F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAWCam;
+			productName = RAWCam;
+			productReference = FAA627412660C216002A26F0 /* RAWCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA627592660C217002A26F0 /* RAWCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA627712660C217002A26F0 /* Build configuration list for PBXNativeTarget "RAWCamTests" */;
+			buildPhases = (
+				FAA627562660C217002A26F0 /* Sources */,
+				FAA627572660C217002A26F0 /* Frameworks */,
+				FAA627582660C217002A26F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA6275C2660C217002A26F0 /* PBXTargetDependency */,
+			);
+			name = RAWCamTests;
+			productName = RAWCamTests;
+			productReference = FAA6275A2660C217002A26F0 /* RAWCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA627642660C217002A26F0 /* RAWCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA627742660C217002A26F0 /* Build configuration list for PBXNativeTarget "RAWCamUITests" */;
+			buildPhases = (
+				FAA627612660C217002A26F0 /* Sources */,
+				FAA627622660C217002A26F0 /* Frameworks */,
+				FAA627632660C217002A26F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA627672660C217002A26F0 /* PBXTargetDependency */,
+			);
+			name = RAWCamUITests;
+			productName = RAWCamUITests;
+			productReference = FAA627652660C217002A26F0 /* RAWCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA627392660C216002A26F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					FAA627402660C216002A26F0 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					FAA627592660C217002A26F0 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FAA627402660C216002A26F0;
+					};
+					FAA627642660C217002A26F0 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = FAA627402660C216002A26F0;
+					};
+				};
+			};
+			buildConfigurationList = FAA6273C2660C216002A26F0 /* Build configuration list for PBXProject "RAWCam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA627382660C216002A26F0;
+			productRefGroup = FAA627422660C216002A26F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA627402660C216002A26F0 /* RAWCam */,
+				FAA627592660C217002A26F0 /* RAWCamTests */,
+				FAA627642660C217002A26F0 /* RAWCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA6273F2660C216002A26F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA627542660C217002A26F0 /* LaunchScreen.storyboard in Resources */,
+				FAA627512660C217002A26F0 /* Assets.xcassets in Resources */,
+				FAA6274C2660C216002A26F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA627582660C217002A26F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA627632660C217002A26F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA6273D2660C216002A26F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA627492660C216002A26F0 /* ViewController.swift in Sources */,
+				FAA627452660C216002A26F0 /* AppDelegate.swift in Sources */,
+				FAA6274F2660C216002A26F0 /* RAWCam.xcdatamodeld in Sources */,
+				FAA627472660C216002A26F0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA627562660C217002A26F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA6275F2660C217002A26F0 /* RAWCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA627612660C217002A26F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA6276A2660C217002A26F0 /* RAWCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA6275C2660C217002A26F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA627402660C216002A26F0 /* RAWCam */;
+			targetProxy = FAA6275B2660C217002A26F0 /* PBXContainerItemProxy */;
+		};
+		FAA627672660C217002A26F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA627402660C216002A26F0 /* RAWCam */;
+			targetProxy = FAA627662660C217002A26F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA6274A2660C216002A26F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA6274B2660C216002A26F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA627522660C217002A26F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA627532660C217002A26F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA6276C2660C217002A26F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA6276D2660C217002A26F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA6276F2660C217002A26F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8X2UF2C3G;
+				INFOPLIST_FILE = RAWCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shashimal.RAWCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA627702660C217002A26F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8X2UF2C3G;
+				INFOPLIST_FILE = RAWCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shashimal.RAWCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAA627722660C217002A26F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8X2UF2C3G;
+				INFOPLIST_FILE = RAWCamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shashimal.RAWCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAWCam.app/RAWCam";
+			};
+			name = Debug;
+		};
+		FAA627732660C217002A26F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8X2UF2C3G;
+				INFOPLIST_FILE = RAWCamTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shashimal.RAWCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAWCam.app/RAWCam";
+			};
+			name = Release;
+		};
+		FAA627752660C217002A26F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8X2UF2C3G;
+				INFOPLIST_FILE = RAWCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shashimal.RAWCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RAWCam;
+			};
+			name = Debug;
+		};
+		FAA627762660C217002A26F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G8X2UF2C3G;
+				INFOPLIST_FILE = RAWCamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shashimal.RAWCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RAWCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA6273C2660C216002A26F0 /* Build configuration list for PBXProject "RAWCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA6276C2660C217002A26F0 /* Debug */,
+				FAA6276D2660C217002A26F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA6276E2660C217002A26F0 /* Build configuration list for PBXNativeTarget "RAWCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA6276F2660C217002A26F0 /* Debug */,
+				FAA627702660C217002A26F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA627712660C217002A26F0 /* Build configuration list for PBXNativeTarget "RAWCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA627722660C217002A26F0 /* Debug */,
+				FAA627732660C217002A26F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA627742660C217002A26F0 /* Build configuration list for PBXNativeTarget "RAWCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA627752660C217002A26F0 /* Debug */,
+				FAA627762660C217002A26F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAA6274D2660C216002A26F0 /* RAWCam.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAA6274E2660C216002A26F0 /* RAWCam.xcdatamodel */,
+			);
+			currentVersion = FAA6274E2660C216002A26F0 /* RAWCam.xcdatamodel */;
+			path = RAWCam.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAA627392660C216002A26F0 /* Project object */;
+}
